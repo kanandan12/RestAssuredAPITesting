@@ -1,11 +1,9 @@
+import java.lang.reflect.Method;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.http.Method;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import junit.framework.Assert;
 
 public class TC001_GET_Request {
 	
